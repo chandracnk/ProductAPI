@@ -1,12 +1,9 @@
 ﻿namespace ProductAPI.Model
 {
     public class Product6205
-    {
-        public string Designation { get; set; }
+    {        
         public List<Dimension> Dimensions { get; set; }
-        public List<Properties> Properties { get; set; }        
-        public List<Performance> Performances { get; set; }
-        public List<Logistics> Logistics { get; set; }
+        public List<Properties> Properties { get; set; }
 
     }
 
@@ -23,23 +20,6 @@
         public string Name { get; set; }
         public string Value { get; set; }
         
-    }
-
-    public class Performance
-    {
-        public string Name { get; set; }
-        public double Value { get; set; }
-        public string Unit { get; set; }
-        public string Symbol { get; set; }
-
-    }
-
-    public class Logistics
-    {
-        public string Name { get; set; }
-        public double Value { get; set; }
-        public string Unit { get; set; }        
-
-    }
+    }    
     
 }
