@@ -20,6 +20,13 @@
         public string Name { get; set; }
         public string Value { get; set; }
         
-    }    
-    
+    }
+
+    public class Logistics
+    {
+        public string Name { get; set; }
+        public double Value { get; set; }
+
+    }
+
 }
